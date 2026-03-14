@@ -1,0 +1,32 @@
+.timer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 72px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #1d1d35;
+  padding: 0.75rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+}
+
+.timer .field .value {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.timer .field .label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.2rem;
+}
